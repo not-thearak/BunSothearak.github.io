@@ -1,7 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code2, Smartphone, Globe, ArrowRight } from 'lucide-react';
-// import myImage from '../assets/profile2.jpg';
+import {
+  Code2,
+  Smartphone,
+  Globe,
+  ArrowRight,
+  MessageCircle,
+} from 'lucide-react';
+import { FaLinkedin, FaGithub, FaFacebook } from 'react-icons/fa';
+import myImage from '../assets/profile.jpg';
 
 const Hero = () => {
   const roles = [
@@ -23,7 +30,8 @@ const Hero = () => {
               Hi, I'm <span className="gradient-text">Thearak</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8">
-              I'm a passionate software developer specializing in building web and mobile applications.
+              I'm a passionate software developer specializing in building web
+              and mobile applications.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-8">
@@ -77,7 +85,10 @@ const Hero = () => {
 
                 <div className="relative rounded-xl overflow-hidden aspect-square">
                   <img
-                    src="https://scontent.fpnh10-1.fna.fbcdn.net/v/t39.30808-6/627465091_2099235664184643_948556413980685940_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=iZjemU1ydD0Q7kNvwHSHEug&_nc_oc=Adq4P45bSlhSn9fkUZlKHyC9qD3OBFP3laLXPqPr5lbEGGDYj0_QcHdp1H40X_bB7QE&_nc_zt=23&_nc_ht=scontent.fpnh10-1.fna&_nc_gid=TNOehw3-BFGo5B06l6Qs9w&_nc_ss=7b2a8&oh=00_Af59YAwkD32t-zqvKXWbNMltDqgTax-rWRXRIB349pqi3w&oe=6A1F75C8"
+                    // src="https://scontent.fpnh10-1.fna.fbcdn.net/v/t39.30808-6/627465091_2099235664184643_948556413980685940_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=iZjemU1ydD0Q7kNvwHSHEug&_nc_oc=Adq4P45bSlhSn9fkUZlKHyC9qD3OBFP3laLXPqPr5lbEGGDYj0_QcHdp1H40X_bB7QE&_nc_zt=23&_nc_ht=scontent.fpnh10-1.fna&_nc_gid=TNOehw3-BFGo5B06l6Qs9w&_nc_ss=7b2a8&oh=00_Af59YAwkD32t-zqvKXWbNMltDqgTax-rWRXRIB349pqi3w&oe=6A1F75C8"
+                    // src="https://scontent.fpnh10-1.fna.fbcdn.net/v/t39.30808-6/482212570_1830906911017521_5271318882203611787_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=110&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=FXTA9tnJe6QQ7kNvwFbJL_l&_nc_oc=AdqY9oidQWL0sOc1wVFF_K5__n-7sNDqV6yHNZtTIflzpfpOo348iEcEdrx1rSjOVLs&_nc_zt=23&_nc_ht=scontent.fpnh10-1.fna&_nc_gid=yQw-iudYoHEN0XIBrLo6zg&_nc_ss=7b2a8&oh=00_Af-SnL3TvM_VpnWDhNp_OERxGvObCngo2tvsttlDCGRoZQ&oe=6A271A9C"
+                    // src={myImage}
+                    src='https://scontent.fpnh10-1.fna.fbcdn.net/v/t39.30808-6/776747179_2260461498062058_4325057480577346673_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=DiDP-OIAqz8Q7kNvwEl8hw-&_nc_oc=Adri4WjzctBiw2qoLJ3mDgadgDlrezh7qbxKzz87P6IHyZFxRu-e1Hk003E8ax71ziM&_nc_zt=23&_nc_ht=scontent.fpnh10-1.fna&_nc_gid=oeD-AcuHuwKKsshQiTKlvg&_nc_ss=7b2a8&oh=00_AQIXJbxGyYq_0GGuTQonb6qNjQLpeOUpN7GFJEDIQQboFQ&oe=6A9A2B8F'
                     alt="Profile"
                     className="w-full h-full object-cover"
                   />
@@ -89,6 +100,37 @@ const Hero = () => {
                   <span className="text-xs text-gray-400">•</span>
                   <span className="text-xs text-primary">Thearak</span>
                 </div>
+              </div>
+              {/* Add this after the existing content in Hero.jsx, before the closing div */}
+              <div className="flex gap-4 mt-8 justify-center md:justify-start">
+                <a
+                  href="https://github.com/yourusername"
+                  target="_blank"
+                  className="bg-gray-800/50 p-2 rounded-full hover:bg-primary/20 transition-all hover:scale-110"
+                >
+                  <FaGithub size={20} />
+                </a>
+                <a
+                  href="https://linkedin.com/in/yourusername"
+                  target="_blank"
+                  className="bg-gray-800/50 p-2 rounded-full hover:bg-primary/20 transition-all hover:scale-110"
+                >
+                  <FaLinkedin size={20} />
+                </a>
+                <a
+                  href="https://t.me/yourusername"
+                  target="_blank"
+                  className="bg-gray-800/50 p-2 rounded-full hover:bg-primary/20 transition-all hover:scale-110"
+                >
+                  <MessageCircle size={20} />
+                </a>
+                <a
+                  href="https://facebook.com/yourusername"
+                  target="_blank"
+                  className="bg-gray-800/50 p-2 rounded-full hover:bg-primary/20 transition-all hover:scale-110"
+                >
+                  <FaFacebook size={20} />
+                </a>
               </div>
             </div>
           </motion.div>

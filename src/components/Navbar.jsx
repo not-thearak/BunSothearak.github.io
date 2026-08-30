@@ -5,14 +5,14 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
-  const navItems = [
-    { name: 'Home', href: '#home' },
-    { name: 'About', href: '#about' },
-    { name: 'Skills', href: '#skills' },
-    { name: 'Projects', href: '#projects' },
-    { name: 'Contact', href: '#contact' },
-  ];
-
+const navItems = [
+  { name: 'Home', href: '#home' },
+  { name: 'About', href: '#about' },
+  { name: 'Skills', href: '#skills' },
+  { name: 'Projects', href: '#projects' },
+  { name: 'Certificates', href: '#certificates' }, // Add this line
+  { name: 'Contact', href: '#contact' },
+];
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);

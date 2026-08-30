@@ -4,8 +4,11 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Certificates from './components/Certificates'; // Add this import
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+// import FloatingSocial from './components/FloatingSocial'; // add new
+import FloatingSocial from './components/FloatingSocial';
 
 function App() {
   useEffect(() => {
@@ -35,6 +38,9 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Certificates /> {/* Add this line */}
+        {/* <FloatingSocial /> add new */}
+        <FloatingSocial/>
       <Contact />
       <Footer />
     </div>

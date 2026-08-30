@@ -8,7 +8,6 @@ import {
   MessageCircle,
 } from 'lucide-react';
 import { FaLinkedin, FaGithub, FaFacebook } from 'react-icons/fa';
-import myImage from '../assets/profile.jpg';
 
 const Hero = () => {
   const roles = [

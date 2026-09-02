@@ -10,11 +10,11 @@ import {
 
 const FloatingSocial = () => {
   const socialLinks = [
-    { icon: FaFacebook, href: 'https://facebook.com/yourusername', color: '#1877f2', label: 'Facebook' },
-    { icon: MessageCircle, href: 'https://t.me/yourusername', color: '#26A5E4', label: 'Telegram' },
-    { icon: FaLinkedin, href: 'https://linkedin.com/in/yourusername', color: '#0A66C2', label: 'LinkedIn' },
-    { icon: FaGithub, href: 'https://github.com/yourusername', color: '#333', label: 'GitHub' },
-    { icon: FaTwitter, href: 'https://twitter.com/yourusername', color: '#1DA1F2', label: 'Twitter' },
+    { icon: FaFacebook, href: 'https://www.facebook.com/bun.sotheareak.3', color: '#1877f2', label: 'Facebook' },
+    { icon: MessageCircle, href: 'https://t.me/SothearakBun', color: '#26A5E4', label: 'Telegram' },
+    // { icon: FaLinkedin, href: 'https://linkedin.com/in/yourusername', color: '#0A66C2', label: 'LinkedIn' },
+    { icon: FaGithub, href: 'https://github.com/not-thearak', color: '#333', label: 'GitHub' },
+    // { icon: FaTwitter, href: 'https://twitter.com/yourusername', color: '#1DA1F2', label: 'Twitter' },
   ];
 
   return (

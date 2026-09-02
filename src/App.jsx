@@ -38,7 +38,8 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <Certificates /> {/* Add this line */}
+      {/* <Certificates /> */}
+       {/* Add this line */}
         {/* <FloatingSocial /> add new */}
         <FloatingSocial/>
       <Contact />

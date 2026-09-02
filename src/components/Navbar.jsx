@@ -10,7 +10,8 @@ const navItems = [
   { name: 'About', href: '#about' },
   { name: 'Skills', href: '#skills' },
   { name: 'Projects', href: '#projects' },
-  { name: 'Certificates', href: '#certificates' }, // Add this line
+  // { name: 'Certificates', href: '#certificates' }, 
+  // Add this line
   { name: 'Contact', href: '#contact' },
 ];
   useEffect(() => {

@@ -9,27 +9,31 @@ import {
   SiLaravel,
   SiHtml5,
   SiCss,
-  SiGithub
+  SiGithub,
+  SiPhp,
+  SiDart,
+  SiJavascript
 } from 'react-icons/si';
 
 const Skills = () => {
   const skillCategories = [
     {
-      title: 'Frontend Development',
+      title: 'Programming',
       skills: [
-        { name: 'HTML', icon: SiHtml5, level: 90 },
-        { name: 'CSS', icon: SiCss, level: 85 },
-        // { name: 'TypeScript', icon: SiTypescript, level: 85 },
-        { name: 'TailwindCSS', icon: SiTailwindcss, level: 90 },
+        { name: 'Javasript', icon: SiJavascript, level: 80 },
+        { name: 'PHP', icon: SiPhp, level: 90},
+        { name: 'Dart', icon: SiDart, level: 90 },
+        
       ]
     },
     {
-      title: 'Backend Development',
+      title: 'Web Development',
       skills: [
+        {name: 'HTML', icon: SiHtml5, level: 90},
+        {name: 'CSS', icon: SiCss, level: 90},
+        { name: 'TailwindCSS', icon: SiTailwindcss, level: 70 },
         { name: 'Laravel', icon: SiLaravel, level: 88 },
-        { name: 'Python', icon: SiPython, level: 30 },
-        { name: 'PostgreSQL', icon: SiPostgresql, level: 82 },
-        { name: 'MySQL', icon: SiMysql, level: 85 },
+        { name: 'Reactjs', icon: SiReact, level: 30 },
       ]
     },
     {
@@ -40,12 +44,14 @@ const Skills = () => {
       ]
     },
     {
-      title: 'Tools & Others',
+      title: 'Tools & Database',
       skills: [
         { name: 'Docker', icon: SiDocker, level: 50 },
         { name: 'Git', icon: SiGit, level: 88 },
         { name: 'Github', icon: SiGithub, level: 85 },
         { name: 'Figma', icon: SiFigma, level: 80 },
+        { name: 'MySql', icon: SiMysql, level: 80 },
+        { name: 'Posgresql', icon: SiPostgresql, level: 70}
       ]
     }
   ];

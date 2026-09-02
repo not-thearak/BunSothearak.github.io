@@ -11,7 +11,7 @@ const Projects = () => {
       type: 'Web',
       icon: Globe,
       github: 'https://github.com/not-thearak/Computer-shop',
-      live: 'https://github.com/not-thearak/Computer-sho',
+      live: 'https://github.com/not-thearak/Computer-shop',
     },
     {
       title: 'Flutter Front-End for Skincare E-commerce',
@@ -22,15 +22,15 @@ const Projects = () => {
       // github: 'https://github.com',
       live: 'https://github.com/not-thearak/Skincare-Project',
     },
-    // {
-    //   title: 'AI Content Generator',
-    //   description: 'Web application that uses OpenAI API to generate content, images, and code snippets with user authentication and credit system.',
-    //   tech: ['Next.js', 'Python', 'OpenAI API', 'PostgreSQL', 'Redis'],
-    //   type: 'Web',
-    //   icon: Globe,
-    //   // github: 'https://github.com',
-    //   live: 'https://example.com',
-    // },
+    {
+      title: 'POS mobile',
+      description: 'Web application that uses OpenAI API to generate content, images, and code snippets with user authentication and credit system.',
+      tech: ['Flutter', 'Dart', 'Laravel', 'Mysql'],
+      type: 'Mobile',
+      icon: Smartphone,
+      // github: 'https://github.com',
+      live: 'https://github.com/not-thearak/pos-mobile',
+    },
     // {
     //   title: 'Health Tracker Mobile',
     //   description: 'Cross-platform health and fitness tracking app with workout plans, nutrition logging, and progress analytics.',
@@ -109,7 +109,7 @@ const Projects = () => {
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-gray-300 hover:text-primary transition-colors"
                   >
-                    <ExternalLink size={18} /> GitHub
+                    <ExternalLink size={18} />See detail in GitHub
                   </a>
                 </div>
               </div>

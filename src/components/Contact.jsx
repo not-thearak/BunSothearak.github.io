@@ -90,8 +90,8 @@ ${data.message}
 
   // Contact Information
   const contactInfo = [
-    { icon: Mail, text: 'thearak@example.com', link: 'mailto:thearak@example.com' },
-    { icon: Phone, text: '+855 12 345 678', link: 'tel:+85512345678' },
+    { icon: Mail, text: 'bunthearak05@gmail.com', link: 'mailto:thearak@example.com' },
+    { icon: Phone, text: '+855 66 937 889', link: 'tel:+85512345678' },
     { icon: MapPin, text: 'Phnom Penh, Cambodia', link: 'https://maps.google.com/?q=Phnom+Penh+Cambodia' },
   ];
 
@@ -100,59 +100,59 @@ ${data.message}
     { 
       name: 'Facebook', 
       icon: FaFacebook, 
-      href: 'https://facebook.com/yourusername',
+      href: 'https://www.facebook.com/bun.sotheareak.3',
       color: 'hover:bg-[#1877f2]',
-      username: '@yourusername'
+      username: '@bun.sotheareak.3'
     },
     { 
       name: 'Telegram', 
       icon: MessageCircle, 
-      href: 'https://t.me/yourusername',
+      href: 'https://t.me/SothearakBun',
       color: 'hover:bg-[#26A5E4]',
-      username: '@yourusername'
+      username: '@SothearakBun'
     },
-    { 
-      name: 'LinkedIn', 
-      icon: FaLinkedin, 
-      href: 'https://linkedin.com/in/yourusername',
-      color: 'hover:bg-[#0A66C2]',
-      username: 'yourusername'
-    },
+    // { 
+    //   name: 'LinkedIn', 
+    //   icon: FaLinkedin, 
+    //   href: 'https://linkedin.com/in/yourusername',
+    //   color: 'hover:bg-[#0A66C2]',
+    //   username: 'yourusername'
+    // },
     { 
       name: 'GitHub', 
       icon: FaGithub, 
-      href: 'https://github.com/yourusername',
+      href: 'https://github.com/not-thearak',
       color: 'hover:bg-[#333]',
-      username: 'yourusername'
+      username: '@not-thearak'
     },
-    { 
-      name: 'Twitter/X', 
-      icon: FaTwitter, 
-      href: 'https://twitter.com/yourusername',
-      color: 'hover:bg-[#1DA1F2]',
-      username: '@yourusername'
-    },
-    { 
-      name: 'Instagram', 
-      icon: FaInstagram, 
-      href: 'https://instagram.com/yourusername',
-      color: 'hover:bg-gradient-to-r from-[#833AB4] to-[#E4405F]',
-      username: '@yourusername'
-    },
-    { 
-      name: 'YouTube', 
-      icon: FaYoutube, 
-      href: 'https://youtube.com/@yourusername',
-      color: 'hover:bg-[#FF0000]',
-      username: 'yourusername'
-    },
-     { 
-      name: 'YouTube', 
-      icon: FaTiktok, 
-      href: 'https://youtube.com/@yourusername',
-      color: 'hover:bg-[#000000]',
-      username: 'yourusername'
-    },
+    // { 
+    //   name: 'Twitter/X', 
+    //   icon: FaTwitter, 
+    //   href: 'https://twitter.com/yourusername',
+    //   color: 'hover:bg-[#1DA1F2]',
+    //   username: '@yourusername'
+    // },
+    // { 
+    //   name: 'Instagram', 
+    //   icon: FaInstagram, 
+    //   href: 'https://instagram.com/yourusername',
+    //   color: 'hover:bg-gradient-to-r from-[#833AB4] to-[#E4405F]',
+    //   username: '@yourusername'
+    // },
+    // { 
+    //   name: 'YouTube', 
+    //   icon: FaYoutube, 
+    //   href: 'https://youtube.com/@yourusername',
+    //   color: 'hover:bg-[#FF0000]',
+    //   username: 'yourusername'
+    // },
+    //  { 
+    //   name: 'YouTube', 
+    //   icon: FaTiktok, 
+    //   href: 'https://youtube.com/@yourusername',
+    //   color: 'hover:bg-[#000000]',
+    //   username: 'yourusername'
+    // },
   ];
 
   return (
@@ -186,7 +186,7 @@ ${data.message}
               {contactInfo.map((info, idx) => (
                 <a
                   key={idx}
-                  href={info.link}
+                  // href={info.link}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 text-gray-300 hover:text-primary transition-colors group"
@@ -234,7 +234,7 @@ ${data.message}
                 Fastest way to reach me! Click the button below to start a conversation.
               </p>
               <a
-                href="https://t.me/yourusername"
+                href="https://t.me/SothearakBun"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#26A5E4] text-white px-6 py-2 rounded-lg font-semibold hover:shadow-lg transition-all"
@@ -251,7 +251,7 @@ ${data.message}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
+            {/* <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
             
             <form onSubmit={handleSubmit} className="space-y-6">
               {submitStatus === 'success' && (
@@ -332,7 +332,7 @@ ${data.message}
                   </>
                 )}
               </button>
-            </form>
+            </form> */}
           </motion.div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Award, ExternalLink, Calendar, X, ZoomIn } from 'lucide-react';
+import certi from '../assets/profile.JPG'
 
 const Certificates = () => {
   const [selectedCert, setSelectedCert] = useState(null);
@@ -15,7 +16,7 @@ const Certificates = () => {
       skills: ["C", "C++", "OOP", "Project Development"],
       credentialId: "ABC123DEF456",
       credentialUrl: "https://coursera.org/verify/professional-cert/your-id",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMuDk-qoyAfNPAEicpuVr9hfv4n-WWpYVbew&s",
+      image: "https://placehold.co/600x400/1e293b/6366f1?text=Basic+Certificate",
       color: "from-blue-500/20 to-cyan-500/20"
     },
     {
